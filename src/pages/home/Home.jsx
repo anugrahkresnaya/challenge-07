@@ -1,9 +1,8 @@
-import Navbar from "../../components/navbar/NavbarComponent";
-
+import HeaderComponent from "../../components/header/HeaderComponent";
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <HeaderComponent />
     </div>
   );
 };
