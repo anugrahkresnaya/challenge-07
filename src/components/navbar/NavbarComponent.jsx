@@ -9,7 +9,7 @@ import styles from './NavbarComponent.module.css';
 
 const NavbarComponent = () => {
   return (
-    <div>
+    <header>
       <Navbar bg="light" expand="lg">
         <Container fluid="md">
           <Navbar.Brand href="/">BCR</Navbar.Brand>
@@ -36,7 +36,7 @@ const NavbarComponent = () => {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-    </div >
+    </header >
   );
 };
 
