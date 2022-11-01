@@ -1,12 +1,19 @@
 import Home from './pages/home/Home';
 import CarsPage from './pages/cars/CarsPage';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Home /> */}
-      <CarsPage />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='cars' element={<CarsPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

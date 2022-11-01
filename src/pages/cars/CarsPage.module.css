@@ -40,3 +40,47 @@
 .col {
   padding: 0 8px 0;
 }
+
+#carsContainer {
+  width: 1047px;
+  margin: 0 auto;
+}
+
+.cardContainer {
+  width: 333px;
+  height: 100%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+.cardContainer button {
+  align-self: center;
+}
+
+.carCardImage {
+  width: 270px;
+  margin: 24px 0 16px 24px;
+}
+
+.fontCard {
+  font-size: 14px;
+}
+
+.fontCard img {
+  margin-right: 8px;
+}
+
+.fontPrice {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pilihBtn {
+  width: 285px;
+  background-color: #5CB85F;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  padding: 8px 12px;
+}
