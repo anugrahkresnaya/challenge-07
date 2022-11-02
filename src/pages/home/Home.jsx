@@ -209,7 +209,7 @@ const Home = () => {
                   </button>
                 </h2>
                 <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                  <div class={`accordion-body ${styles.accordionBody}`}>
+                  <div className={`accordion-body ${styles.accordionBody}`}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </div>
                 </div>
