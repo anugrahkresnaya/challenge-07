@@ -143,7 +143,13 @@ const CarsPage = () => {
         <section className="container mt-4">
           <div className="row gap-4" id={styles.carsContainer}>
             {
-              carFiltered.length > 0 ? renderCar : <h1>kosong</h1>
+              carFiltered.length > 0 ? renderCar : (
+                <div className="text-center">
+                  <img src={require('../../assets/images/empty-21-128.png')} alt="" />
+                  <h1>Kosong...</h1>
+                  <p>List mobil masih kosong. Silahkan masukkan data di form atas</p>
+                </div>
+              )
             }
           </div>
         </section>

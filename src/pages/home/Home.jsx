@@ -142,7 +142,7 @@ const Home = () => {
           <div className={styles.ctaBanner}>
             <h1>Sewa Mobil di Bekasi Sekarang</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="http://0.0.0.0:8000/cars">
+            <a href="/cars">
               <button className="btn" id={styles.btnGreen}>Mulai Sewa Mobil</button>
             </a>
           </div>

@@ -43,7 +43,7 @@ const HeaderComponent = () => {
           <div className={`col-lg ${styles.heroText}`}>
             <h1>Sewa & Rental Mobil Terbaik di<br />kawasan Bekasi</h1>
             <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas<br />terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-            <button className="btn" id={styles.btnGreen}>Mulai Sewa Mobil</button>
+            <a href='/cars' className="btn" id={styles.btnGreen}>Mulai Sewa Mobil</a>
           </div>
           <div className="col-lg">
             <img src={require('../../assets/images/img_car.png')} className={styles.carImage} alt="car" />
