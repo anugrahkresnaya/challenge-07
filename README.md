@@ -1,3 +1,9 @@
+# Challenge 07
+This is a repository for submission on chapter 7 and this repo is about binar car rental's page with reactjs
+
+# Packages
+- Axios
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +11,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+This is for install all of the packages or dependencies that needed for this project
 
 ### `npm start`
 
